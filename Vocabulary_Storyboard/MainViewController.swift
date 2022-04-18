@@ -7,10 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
+    
+    @IBOutlet weak var textExample: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        textExample.text = "abc"
         // Do any additional setup after loading the view.
     }
 
